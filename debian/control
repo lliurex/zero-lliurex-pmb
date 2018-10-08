@@ -8,7 +8,7 @@ Standards-Version: 4.1.2
 
 Package: zero-lliurex-pmb
 Architecture: all
-Depends: ${misc:Depends},epi-gtk.zero-center
+Depends: ${misc:Depends},epi-gtk,zero-center
 Description: PMB Installer
  PMB Installer in all flavors instead of
  Lliurex Biblioteca Flavor
