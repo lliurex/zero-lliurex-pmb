@@ -1,0 +1,35 @@
+#!/bin/bash
+
+
+ACTION="$1"
+
+case $ACTION in
+
+	postInstall)
+		echo "Testing it MySQL is alive and the root passwd is available..."
+		sudo mysql_root_passwd -i
+
+		echo "Checking if pmb database exists..."
+		lliurex-sgbd --db_is_present lliurex-pmb
+		if [ ! -f /tmp/db_is_present ]; then
+			echo "Creating PMB database..."
+			lliurex-pmb --install-database
+		else
+			echo "PMB database are going to update..."
+			lliurex-pmb --upgrade
+		fi
+
+		echo "Configuring PMB hosts..."
+		lliurex-pmb --hosts
+		
+	;;
+	remove)
+
+		apt-get purge -y lliurex-pmb
+		TEST=$( dpkg-query -s  lliurex-pmb 2> /dev/null| grep Status | cut -d " " -f 4 )
+		if [ "$TEST" == 'installed' ];then
+			exit 1
+		fi
+				
+	;;	
+esac

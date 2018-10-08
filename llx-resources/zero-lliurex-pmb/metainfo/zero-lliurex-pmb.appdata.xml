@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+<id>zero-lliurex-pmb</id>
+<metadata_license>CC0-1.0</metadata_license>
+<name>zero-lliurex-pmb</name>
+<name xml:lang="en">PMB Installer</name>
+<name xml:lang="es">PMB, gestor de la biblioteca</name>
+<name xml:lang="ca_ES.UTF-8@valencia">PMB, gestió de la biblioteca</name>
+<name xml:lang="ca_ES@valencia">PMB, gestió de la biblioteca</name>
+<name xml:lang="ca_ES">PMB, gestió de la biblioteca</name>
+<summary>PMB installer</summary>
+<summary xml:lang="en">PMB installer in any lliurex flavor</summary>
+<summary xml:lang="es">Instalador del gestor de bibliotecas en servidores</summary>
+<summary xml:lang="ca_ES.UTF-8@valencia">Instal·lador del gestor de biblioteques en servidors</summary>
+<summary xml:lang="ca_ES@valencia">Instal·lador del gestor de biblioteques en servidors</summary>
+<summary xml:lang="ca_ES">Instal·lador del gestor de biblioteques en servidors</summary>
+<description>
+<p>PMB installer</p>
+<p xml:lang="en">PMB installer in any lliurex flavor. PMB is a completely free SIGB (Integrated Library Management System). It is a web application based on an HTTP server (basically Apache, although not mandatory), a MySQL database and the PHP language. PMB benefits from the flexibility of Internet applications. PMB has most of the essential functional modules of a library management system.</p>
+<p xml:lang="es">Instalador del gestor de bibliotecas en servidores. PMB es un SIGB (Sistema Integrado de Gestión de Bibliotecas) completamente libre. Se trata de una aplicación web que se basa en un servidor HTTP (básicamente Apache, aunque no es obligatorio), una base de datos MySQL y el lenguaje PHP. PMB se beneficia de la flexibilidad de las aplicaciones de Internet. PMB tiene la mayoría de los módulos funcionales esenciales para un sistema de administración de la biblioteca.</p>
+<p xml:lang="ca_ES.UTF-8@valencia">Instal·lador del gestor de biblioteques en servidors. PMB és un SIGB (Sistema Integrat de Gestió de Biblioteques) completament lliure. Es tracta d'una aplicació web que es basa en un servidor HTTP (bàsicament Apache, encara que no és obligatori), una base de dades MySQL i el llenguatge PHP. PMB es beneficia de la flexibilitat de les aplicacions d'Internet. PMB té la majoria dels mòduls funcionals essencials per a un sistema d'administració de la biblioteca.</p>
+<p xml:lang="ca_ES">Instal·lador del gestor de biblioteques en servidors. PMB és un SIGB (Sistema Integrat de Gestió de Biblioteques) completament lliure. Es tracta d'una aplicació web que es basa en un servidor HTTP (bàsicament Apache, encara que no és obligatori), una base de dades MySQL i el llenguatge PHP. PMB es beneficia de la flexibilitat de les aplicacions d'Internet. PMB té la majoria dels mòduls funcionals essencials per a un sistema d'administració de la biblioteca.</p>
+<p xml:lang="ca_ES@valencia">Instal·lador del gestor de biblioteques en servidors. PMB és un SIGB (Sistema Integrat de Gestió de Biblioteques) completament lliure. Es tracta d'una aplicació web que es basa en un servidor HTTP (bàsicament Apache, encara que no és obligatori), una base de dades MySQL i el llenguatge PHP. PMB es beneficia de la flexibilitat de les aplicacions d'Internet. PMB té la majoria dels mòduls funcionals essencials per a un sistema d'administració de la biblioteca.</p>
+</description>
+<categories>
+<category>Lliurex</category>
+<category>Zomando</category>
+<category>Utility</category>
+</categories>
+<icon type="cached">pmb</icon>
+
+<keywords>
+<keyword>zero</keyword>
+<keyword>lliurex</keyword>
+<keyword>pmb</keyword>
+<keyword>zero-lliurex-pmb</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="en">
+<keyword>PMB</keyword>
+<keyword>Installer</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="es">
+<keyword>PMB,</keyword>
+<keyword>gestor</keyword>
+<keyword>biblioteca</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="ca_ES.UTF-8@valencia">
+<keyword>gestió</keyword>
+<keyword>Zomando</keyword>
+</keywords>
+<keywords xml:lang="ca_ES">
+<keyword>Zomando</keyword>
+
+</keywords>
+</component>

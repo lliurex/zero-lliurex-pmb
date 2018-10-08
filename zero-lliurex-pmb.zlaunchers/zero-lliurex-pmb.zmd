@@ -1,0 +1,5 @@
+#!/bin/bash
+
+epi-gtk /usr/share/zero-lliurex-pmb/lliurex-pmb.epi
+
+exit 0
