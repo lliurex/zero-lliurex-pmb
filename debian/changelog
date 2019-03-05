@@ -1,3 +1,9 @@
+zero-lliurex-pmb (0.21) bionic; urgency=medium
+
+  * Changed adm group by sudo
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 05 Mar 2019 16:47:07 +0100
+
 zero-lliurex-pmb (0.20) bionic; urgency=medium
 
   * Initial release for bionic
