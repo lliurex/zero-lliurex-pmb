@@ -5,6 +5,11 @@ ACTION="$1"
 
 case $ACTION in
 
+	preInstall)
+	
+		#docker pull lliurex/lliurex-pmb
+	;;	
+
 	postInstall)
 		echo "Testing it MySQL is alive and the root passwd is available..."
 		sudo mysql_root_passwd -i
