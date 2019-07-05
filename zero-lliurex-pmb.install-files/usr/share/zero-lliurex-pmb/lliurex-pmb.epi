@@ -2,6 +2,7 @@
 	"type":"apt",
 	"pkg_list": [{"name":"lliurex-pmb","key_store":"zero-lliurex-pmb"}], 
 	"script": {"name":"/usr/share/zero-lliurex-pmb/lliurex-pmb_script", "remove":true},
+	"depends": "/usr/share/zero-lliurex-docker/docker.epi",
 	"zomando":"zero-lliurex-pmb"
 	
 	}
