@@ -1,3 +1,9 @@
+zero-lliurex-pmb (0.22) bionic; urgency=medium
+
+  * Changed script to download pmb docker
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 12 Jul 2019 09:10:51 +0200
+
 zero-lliurex-pmb (0.21) bionic; urgency=medium
 
   * Changed adm group by sudo
