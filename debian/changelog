@@ -1,3 +1,9 @@
+zero-lliurex-pmb (0.23) bionic; urgency=medium
+
+  * Added custom icon to show in epi
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 07 Jul 2020 11:15:35 +0200
+
 zero-lliurex-pmb (0.22) bionic; urgency=medium
 
   * Changed script to download pmb docker
