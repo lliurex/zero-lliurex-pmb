@@ -27,25 +27,7 @@ case $ACTION in
 		echo "Configuring PMB hosts..."
 		lliurex-pmb --hosts
 
-		check_container=$(docker ps -a -f name=pmb | grep "pmb" | cut -d  " " -f 1)
 		
-		if [ -z "$check_container" ]; then
-			echo "Downloading and starting pmb docker ..."
-			docker run -d --restart always --name pmb -v /usr/share/pmb/www:/var/www/html -v /var/lib/pmb:/var/lib/pmb -v /etc/pmb:/etc/pmb -v /var/run/mysqld:/var/run/mysqld -p 800:80 lliurex/pmb_base
-		
-			check_download=$(docker images lliurex/pmb_base -q)
-			if [ -z "$check_download" ]; then
-				echo "Unable to download pmb docker"
-				exit 1
-			fi
-
-			check_docker=$(docker ps -f name=pmb | grep "pmb" | cut -d  " " -f 1)
-			if [ -z "$check_docker" ]; then
-				echo "Unable to start pmb docker"
-				exit 1
-			fi
-
-		fi
 		
 	;;
 	remove)

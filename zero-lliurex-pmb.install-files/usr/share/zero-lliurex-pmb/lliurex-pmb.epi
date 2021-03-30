@@ -3,7 +3,6 @@
 	"pkg_list": [{"name":"lliurex-pmb","key_store":"zero-lliurex-pmb","custom_icon":"pmb.svg"}], 
 	"script": {"name":"/usr/share/zero-lliurex-pmb/lliurex-pmb_script", "remove":true},
 	"custom_icon_path":"/usr/share/zero-lliurex-pmb/",
-	"depends": "/usr/share/zero-lliurex-docker/docker.epi",
 	"zomando":"zero-lliurex-pmb"
 	
 	}
