@@ -1,3 +1,9 @@
+zero-lliurex-pmb (0.33) focal; urgency=medium
+
+  * Initial release for focal
+  
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 30 Mar 2021 08:40:26 +0200
+
 zero-lliurex-pmb (0.23) bionic; urgency=medium
 
   * Added custom icon to show in epi
