@@ -31,7 +31,7 @@ case $ACTION in
 		
 		if [ -z "$check_container" ]; then
 			echo "Downloading and starting pmb docker ..."
-			docker run -d --restart always --name pmb -v /usr/share/pmb/www:/var/www/html -v /var/lib/pmb:/var/lib/pmb -v /etc/pmb:/etc/pmb -v /var/run/mysqld:/var/run/mysqld -p 800:80 lliurex/pmb_base
+			docker run -d --restart always --name pmb -v /usr/share/lliurex-pmb/resolv.conf:/etc/resolv.conf:r -v /usr/share/pmb/www:/var/www/html -v /var/lib/pmb:/var/lib/pmb -v /etc/pmb:/etc/pmb -v /var/run/mysqld:/var/run/mysqld -p 800:80 lliurex/pmb_base
 		
 			check_download=$(docker images lliurex/pmb_base -q)
 			if [ -z "$check_download" ]; then
