@@ -1,3 +1,9 @@
+zero-lliurex-pmb (0.23.1) bionic; urgency=medium
+
+  * Add mount resolv.conf
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 16 Apr 2021 10:21:28 +0200
+
 zero-lliurex-pmb (0.23) bionic; urgency=medium
 
   * Added custom icon to show in epi
