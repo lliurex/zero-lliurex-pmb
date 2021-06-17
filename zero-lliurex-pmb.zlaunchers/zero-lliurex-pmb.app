@@ -1,11 +1,13 @@
 Name=zero-lliurex-pmb
 Name[en]=PMB Installer
 Name[es]=PMB, gestor de la biblioteca
+Name[qcv]=PMB, gestió de la biblioteca
 Name[¢a@valencia]=PMB, gestió de la biblioteca
 Name[ca_ES]=PMB, gestió de la biblioteca
 Comment=PMB installer
 Comment[en]=PMB installer in any lliurex flavor
 Comment[es]=Instalador del gestor de bibliotecas en servidores
+Comment[qcv]=Instal·lador del gestor de biblioteques en servidors
 Comment[ca@valencia]=Instal·lador del gestor de biblioteques en servidors
 Comment[ca_ES]=Instal·lador del gestor de biblioteques en servidors
 Icon=zero-lliurex-pmb

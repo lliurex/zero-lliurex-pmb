@@ -1,6 +1,6 @@
 {
 	"type":"apt",
-	"pkg_list": [{"name":"lliurex-pmb","key_store":"zero-lliurex-pmb","custom_icon":"pmb.svg","custom_name":"PMB: Library management tool"}], 
+	"pkg_list": [{"name":"lliurex-pmb","key_store":"zero-lliurex-pmb","custom_icon":"pmb.svg","custom_name":"PMB: installation wizard in LliureX"}], 
 	"script": {"name":"/usr/share/zero-lliurex-pmb/lliurex-pmb_script", "remove":true},
 	"custom_icon_path":"/usr/share/zero-lliurex-pmb/",
 	"zomando":"zero-lliurex-pmb"
