@@ -1,3 +1,10 @@
+zero-lliurex-pmb (0.23.3) bionic-updates; urgency=medium
+
+  * Added custom name in epi file
+  * Fixed zero app file
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 17 Jun 2021 11:09:25 +0200
+
 zero-lliurex-pmb (0.23.2) bionic; urgency=medium
 
   * Fix typo on docker
