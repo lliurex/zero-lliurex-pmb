@@ -1,3 +1,10 @@
+zero-lliurex-pmb (0.34.1) focal; urgency=medium
+
+  * Fixed custom nam in epi file
+  * Fixed zero app file
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 17 Jun 2021 11:02:54 +0200
+
 zero-lliurex-pmb (0.34) focal; urgency=medium
 
   * Added custom name in epi file
